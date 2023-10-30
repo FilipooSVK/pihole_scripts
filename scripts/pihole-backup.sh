@@ -3,7 +3,7 @@
 # Pi-hole Backup Script
 
 # Configuration
-BACKUP_DIR="/home/filip/backup_Pihole" # Updated backup directory
+BACKUP_DIR="/home/usr/backup_Pihole" # Updated backup directory
 TIMESTAMP=$(date +"%Y%m%d%H%M%S")
 BACKUP_FILE="${BACKUP_DIR}/pihole-teleporter-backup-${TIMESTAMP}.tar.gz"
 
